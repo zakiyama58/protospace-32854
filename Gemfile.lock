@@ -107,11 +107,13 @@ GEM
     mimemagic (0.3.5)
     mini_magick (4.11.0)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     minitest (5.14.4)
     msgpack (1.4.2)
     mysql2 (0.5.3)
     nio4r (2.5.7)
-    nokogiri (1.11.2-x86_64-darwin)
+    nokogiri (1.11.2)
+      mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     public_suffix (4.0.6)
@@ -216,7 +218,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  x86_64-darwin-19
+  ruby
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -244,4 +246,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   2.2.14
+   2.1.4
